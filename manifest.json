@@ -1,0 +1,16 @@
+{
+    "name": "Emphasis Scanner",
+    "version": "1.0.0",
+    "description": "makes words have emphasis bolding to make words on screen easier",
+    "manifest_version": 3,
+    "author": "Sampurna Chapagain",
+    "content_scripts": 
+    [
+        {
+            "matches": ["*://*/*"],
+
+            "js": ["script.js"]
+    
+        }
+    ]
+}
