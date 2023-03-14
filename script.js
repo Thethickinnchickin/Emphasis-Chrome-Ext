@@ -1,4 +1,4 @@
-let elements = document.querySelectorAll("p, h1, h2, h3, h4, h5, span");
+let elements = document.querySelectorAll("p, span");
   // get all elements that contain text
 
 for (let i = 0; i < elements.length; i++) {

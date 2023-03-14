@@ -1,13 +1,20 @@
 {
-    "name": "Emphasis Scanner",
+    "name": "Emphasis Translator",
     "version": "1.0.0",
-    "description": "makes words have emphasis bolding to make words on screen easier",
+    "description": "Makes words have emphasis 'Lead-In' bolding to make words on screen easier for readers",
     "manifest_version": 3,
-    "author": "Sampurna Chapagain",
+    "author": "Matt Reiley",
+    "icons": {
+        "16": "bold.png",
+        "32": "bold.png",
+        "48": "bold.png",
+        "128": "bold.png"
+      },
     "content_scripts": 
     [
         {
             "matches": ["*://*/*"],
+            "exclude_matches": ["*://www.google.com/*"],
 
             "js": ["script.js"]
     
